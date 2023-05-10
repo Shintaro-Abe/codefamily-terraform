@@ -1,6 +1,6 @@
 # codefamily-terraform
 ## Refferemce article
-Zennに投稿した、「CodePipelineとTerraformで、API Gatewayをビルド【CodeFamily Practices 5/7】」に掲載したコードを収録したリポジトリ。
+Zennに投稿した、「CodePipelineとTerraformで、API Gatewayをビルド【CodeFamily Practices 7/7】」に掲載したコードを収録したリポジトリ。
 
 <a href="https://zenn.dev/lifewithpiano/articles/codefamily_serverless"><img src="images/codefamly_serverless_zenn.png" width="50%">
 
