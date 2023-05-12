@@ -2,7 +2,7 @@
 ## Refferemce article
 Zennに投稿した、「CodePipelineとTerraformで、API Gatewayをビルド【CodeFamily Practices 7/7】」に掲載したコードを収録したリポジトリ。
 
-<a href="https://zenn.dev/lifewithpiano/articles/codefamily_serverless"><img src="images/codefamly_serverless_zenn.png" width="50%">
+<a href="https://zenn.dev/lifewithpiano/articles/codefamily_terraform"><img src="images/codefamily_terraform_zenn.png" width="50%">
 
 ## Summary
 API GatewayとLambdaの挙動を確認するための、シンプルな構成。
