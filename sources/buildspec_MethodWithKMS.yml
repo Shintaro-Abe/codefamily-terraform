@@ -1,0 +1,19 @@
+version: 0.2
+
+env:
+  secrets-manager:
+    AWS_ACCESS_KEY_ID: access_key_id
+    AWS_SECRET_ACCESS_KEY: secret_key
+
+phases:
+  install:
+    commands:
+      - yum install -y yum-utils shadow-utils
+      - yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
+      - yum -y install terraform
+  build:
+    commands:
+      - echo $AWS_ACCESS_KEY_ID
+      - echo $AWS_SECRET_ACCESS_KEY
+      - terraform init
+      - terraform apply -auto-approve 
