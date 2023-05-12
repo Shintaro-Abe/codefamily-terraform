@@ -87,9 +87,9 @@ resource "aws_api_gateway_deployment" "tfsns-deploy" {
   stage_name = "prod"
 }
 
-#カスタムドメインの作成
+#カスタムドメインの設定
 resource "aws_api_gateway_domain_name" "tfsns-domain" {
-  domain_name = "sns.shintaro-abe-personal.click"
+  domain_name = "Your-FQDN"
   regional_certificate_arn = "arn:aws:acm:${local.region}:${local.account_id}:certificate/${var.certificate_identifer}"
   endpoint_configuration {
     types = [ "REGIONAL" ]
